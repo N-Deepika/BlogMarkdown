@@ -1,0 +1,29 @@
+{
+  "name": "blogmarkdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N-Deepika/BlogMarkdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N-Deepika/BlogMarkdown/issues"
+  },
+  "homepage": "https://github.com/N-Deepika/BlogMarkdown#readme",
+  "dependencies": {
+    "dompurify": "^2.3.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "jsdom": "^19.0.0",
+    "marked": "^4.0.8",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.4",
+    "slugify": "^1.6.5"
+  }
+}
