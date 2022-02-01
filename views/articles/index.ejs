@@ -11,8 +11,9 @@
         <title>Blog</title>
     </head>
     <body>
+    <div class="d-flex flex-column justify-content-center">
     <h1 class="text-center m-2">Articles</h1>
-    <a href="/articles/new" class="btn btn-success m-4">New Articles</a>
+    <a href="/articles/new" class="btn btn-success m-5">New Articles</a>
     <% articles.forEach(article => { %> <div class="card m-4">
         <div class="card-body">
             <h4 class="card title"><%= article.title %></h4>
@@ -28,5 +29,6 @@
         </div>
     </div>
         <%})%>
+    </div>
     </body>
     </html>
