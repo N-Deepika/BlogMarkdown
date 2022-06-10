@@ -1,4 +1,4 @@
-const express= require('express')
+const express = require('express')
 const Article = require('./../models/database')
 const router = express.Router()
 
